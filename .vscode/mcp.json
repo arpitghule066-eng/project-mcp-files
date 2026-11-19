@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "roblox": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["C:\\absolute\\path\\to\\project-mcp-files-1\\dist\\index.js"],
+      "env": {
+        "ROBLOX_PROJECT_PATH": "C:\\absolute\\path\\to\\your\\roblox\\project",
+        "ROBLOX_STUDIO_BRIDGE_PORT": "17483",
+        "ROBLOX_STUDIO_BRIDGE_TOKEN": "replace-with-a-random-local-token"
+      }
+    }
+  }
+}
